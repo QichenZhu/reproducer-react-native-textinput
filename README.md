@@ -4,6 +4,30 @@
 
 This is your new React Native Reproducer project.
 
+## Reproduction steps
+
+1. Build the Android app with New Arch enabled.
+
+```Bash
+cd ReproducerApp
+yarn
+yarn android
+```
+
+2. Start Metro.
+
+```Bash
+npx react-native start
+```
+
+3. Launch the app.
+
+4. Wait a second.
+
+**Expected result:** The caret is at the end.
+
+**Actual result:** The caret is at the beginning.
+
 # Reproducer TODO list
 
 - [x] 1. Create a new reproducer project.
